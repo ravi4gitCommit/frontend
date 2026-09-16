@@ -456,3 +456,41 @@
       color: var(--color-danger);
       font-size: var(--text-xs);
     }
+
+    .empty-state {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    
+      min-height: 220px;
+      padding: var(--space-8);
+    
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+    }
+    
+    .empty-state__content {
+      max-width: 420px;
+      text-align: center;
+    }
+    
+    .empty-state__title {
+      color: var(--color-text);
+      font-size: var(--text-lg);
+      font-weight: var(--font-weight-semibold);
+    }
+    
+    .empty-state__description {
+      margin-top: var(--space-2);
+    
+      color: var(--color-text-secondary);
+      font-size: var(--text-sm);
+    }
+    
+    .empty-state__action {
+      display: flex;
+      justify-content: center;
+    
+      margin-top: var(--space-4);
+    }
