@@ -627,3 +627,38 @@
       color: var(--color-text-secondary);
       font-size: var(--text-sm);
     }
+
+    .alert {
+      width: 100%;
+      padding: var(--space-3) var(--space-4);
+    
+      border: 1px solid transparent;
+      border-radius: var(--radius-md);
+    
+      font-size: var(--text-sm);
+      font-weight: var(--font-weight-medium);
+    }
+    
+    .alert--info {
+      background: var(--color-primary-soft);
+      border-color: #bfdbfe;
+      color: var(--color-primary);
+    }
+    
+    .alert--success {
+      background: #dcfce7;
+      border-color: #bbf7d0;
+      color: var(--color-success);
+    }
+    
+    .alert--warning {
+      background: #fef3c7;
+      border-color: #fde68a;
+      color: var(--color-warning);
+    }
+    
+    .alert--danger {
+      background: #fee2e2;
+      border-color: #fecaca;
+      color: var(--color-danger);
+    }
