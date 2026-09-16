@@ -304,3 +304,50 @@
       background: #fee2e2;
       color: var(--color-danger);
     }
+
+    .table-wrapper {
+      width: 100%;
+      overflow-x: auto;
+    
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+    }
+    
+    .table {
+      width: 100%;
+      border-collapse: collapse;
+    
+      color: var(--color-text);
+      font-size: var(--text-sm);
+    }
+    
+    .table th {
+      padding: var(--space-3) var(--space-4);
+    
+      background: var(--color-surface-muted);
+      border-bottom: 1px solid var(--color-border);
+    
+      color: var(--color-text-secondary);
+      font-size: var(--text-xs);
+      font-weight: var(--font-weight-semibold);
+      text-align: left;
+      white-space: nowrap;
+    }
+    
+    .table td {
+      padding: var(--space-4);
+    
+      border-bottom: 1px solid var(--color-border);
+    
+      color: var(--color-text);
+      vertical-align: middle;
+    }
+    
+    .table tbody tr:last-child td {
+      border-bottom: none;
+    }
+    
+    .table tbody tr:hover {
+      background: var(--color-background);
+    }
