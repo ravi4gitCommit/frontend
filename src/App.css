@@ -351,3 +351,74 @@
     .table tbody tr:hover {
       background: var(--color-background);
     }
+
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      z-index: 1000;
+    
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    
+      padding: var(--space-4);
+    
+      background: rgba(15, 23, 42, 0.45);
+    }
+    
+    .modal {
+      width: 100%;
+      max-width: 560px;
+      max-height: calc(100vh - var(--space-8));
+    
+      overflow-y: auto;
+    
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-lg);
+    }
+    
+    .modal__header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    
+      padding: var(--space-5);
+    
+      border-bottom: 1px solid var(--color-border);
+    }
+    
+    .modal__title {
+      color: var(--color-text);
+      font-size: var(--text-lg);
+      font-weight: var(--font-weight-semibold);
+    }
+    
+    .modal__close {
+      width: 32px;
+      height: 32px;
+    
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    
+      padding: 0;
+    
+      background: transparent;
+      border: none;
+      border-radius: var(--radius-md);
+    
+      color: var(--color-text-muted);
+      font-size: 1.5rem;
+      line-height: 1;
+    }
+    
+    .modal__close:hover {
+      background: var(--color-surface-muted);
+      color: var(--color-text);
+    }
+    
+    .modal__body {
+      padding: var(--space-5);
+    }
