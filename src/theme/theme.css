@@ -1,0 +1,10 @@
+:root {
+    /* Component defaults */
+    --control-height-sm: 36px;
+    --control-height-md: 40px;
+    --control-height-lg: 44px;
+  
+    /* Layout */
+    --page-padding-x: var(--space-6);
+    --page-padding-y: var(--space-8);
+  }
